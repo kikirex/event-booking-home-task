@@ -46,12 +46,12 @@ const activitiesArray = activities.split(",");
 console.log("Activities Array:", activitiesArray);
 
 // 10. Format bookingId to "0083" using padStart()
-// We want a total of 4 characters, padded with "0" at the start
+// total of 4 characters, padded with "0" at the start
 const formattedBookingId = bookingId.padStart(4, "0");
 console.log("Formatted Booking ID:", formattedBookingId);
 
 // 11. Format bookingId to "83***" using padEnd()
-// We want a total of 5 characters, padded with "*" at the end
+// total of 5 characters, padded with "*" at the end
 console.log("Padded End Booking ID:", bookingId.padEnd(5, "*"));
 
 // 12. Repeat the welcome phrase
