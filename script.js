@@ -61,14 +61,12 @@ console.log("Repeat Message:", "See you there! ".repeat(3));
 
 // TASK 2 — Join Strings
 
-
-// Method 1: Using the '+' operator (Concatenation)
-// Pay close attention to the blank spaces inside the quote marks!
+// Using the '+' operator (Concatenation)
 const bookingMessage = "Welcome, " + cleanName + "! Your booking for " + eventName + " on " + eventDate + " at " + venue + " has been received. We look forward to seeing you!";
 console.log("Using + operator:", bookingMessage);
 
-// Method 2: Using the .concat() method
-// You pass every piece of text and variable as comma-separated items inside the parentheses
+// Using the .concat() method
+
 const secondMessage = "Welcome, ".concat(cleanName, "! Your booking for ", eventName, " on ", eventDate, " at ", venue, " has been received. We look forward to seeing you!");
 console.log("Using .concat():", secondMessage);
 
