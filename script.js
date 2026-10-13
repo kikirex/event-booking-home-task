@@ -75,7 +75,7 @@ console.log("Using .concat():", secondMessage);
 
 // TASK 3 — Use a Template Literal
 
-// Backticks ` allow us to inject variables directly using ${} and do math inside them
+// Backticks ` allow us to input variables directly using ${} and do math inside them
 const bookingSummary = `${cleanName} booked ${ticketQuantity} tickets for ${eventName} on ${eventDate} at ${venue}. The booking ID is ${formattedBookingId}, and the total cost is ₦${ticketPrice * ticketQuantity}.`;
 
 console.log("Booking Summary:", bookingSummary);
@@ -88,6 +88,6 @@ console.log("Booking Summary:", bookingSummary);
 const updatedEventName = eventName.replace("Creative", "Community");
 console.log("Updated Event Name:", updatedEventName);
 
-// Checking the original variable proves that .replace() returns a NEW string, 
+// Checking the original variable proves that .replace() returns a new string, 
 // it does not permanently change the original string.
 console.log("Original Event Name remains:", eventName);
