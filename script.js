@@ -67,7 +67,7 @@ console.log("Using + operator:", bookingMessage);
 
 // Using the .concat() method
 
-const secondMessage = "Welcome, ".concat(cleanName, "! Your booking for ", eventName, " on ", eventDate, " at ", venue, " has been received. We look forward to seeing you!");
+const secondMessage = "Welcome, ".concat(cleanName, " Your booking for ", eventName, " on ", eventDate, " at ", venue, " has been received. We look forward to seeing you!");
 console.log("Using .concat():", secondMessage);
 
 
